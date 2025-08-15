@@ -1,0 +1,82 @@
+/*
+Freakybob.site Refreaked - A remastered version of Freakybob.site
+Copyright (C) 2025 Freakybob-Team
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <https://www.gnu.org/licenses/>.
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    margin: 0;
+    background-color: #1070a8;
+    color: white;
+    font-family: 'Segoe UI', 'Segoe', 'Noto Sans', 'Arial';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#sadFace {
+    font-size: 11em;
+    font-weight: 300;
+    margin-bottom: 100px;
+}
+
+.page {
+    width: 900px;
+    display: block;
+}
+
+#paragraph {
+    font-size: 2.23em;
+    font-weight: 300;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+#completeText {
+    font-size: 2.23em;
+    font-weight: 300;
+}
+
+.qrcode {
+    display: flex;
+}
+
+.paragraphContainer {
+    margin-left: 15px;
+}
+
+#moreInfo1 {
+    font-size: 1.8em;
+    font-weight: 300;
+    line-height: 1.5em;
+}
+
+#moreInfo2, #stopCode {
+    font-size: 1.45em;
+    font-weight: 300;
+}
+
+#qrCode {
+    width: 230px;
+}
+
+#stopCode {
+    display: inline-block;
+    margin-top: 8px;
+}
