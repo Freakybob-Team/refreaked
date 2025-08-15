@@ -1,9 +1,8 @@
 {
-  "name": "ReFreaked",
+  "name": "refreaked-worker",
   "compatibility_date": "2025-04-01",
   "workers_dev": true,
   "assets": {
-    "directory": "/site/",
-    "not_found_handling": "404"
+    "directory": "/site/"
   }
 }
