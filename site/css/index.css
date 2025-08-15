@@ -19,3 +19,12 @@ body {
     overflow-x: hidden;
     min-height: 100vh;
 }
+
+button {
+    background-color: aqua;
+    color: black;
+    padding: 15px 25px;
+    cursor: pointer;
+    border-radius: 8px;
+    border: none;
+}
