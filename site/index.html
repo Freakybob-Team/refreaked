@@ -25,6 +25,11 @@
     <a data-typewriter-fontsize="30px" data-typewriter="on">SITE NEWS: A new generation of freakybob.site is here!</a>
     <hr>
     <a href="image.html"><button>Image Gallery</button></a>
+    <script>
+  if (typeof navigator.serviceWorker !== 'undefined') {
+    navigator.serviceWorker.register('sw.js')
+  }
+</script>
     <script src="typewriter/typewriter.js"></script>
 </body>
 </html>
