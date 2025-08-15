@@ -1,0 +1,21 @@
+* {
+    font-family: "Nata Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: rgb(218, 203, 3);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+body {
+    background-image: url('../images/Bikinibottom.jpg'); 
+    background-color: #ff3399; 
+    background-size: cover;
+    min-width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    overflow-x: hidden;
+    min-height: 100vh;
+}
