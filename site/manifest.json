@@ -5,7 +5,9 @@
   "short_name": "Freakybob RF",
   "id": "site.freakybob.refreaked",
   "description": "The next generation of Freakybob.site is here: ReFreaked!\nThank you for installing the PWA &amp;lt;3! Licensed under GPL-3.0. 2025 Freakybob Team.",
-  "start_url": "https://refreaked.pages.dev",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
   "icons": [
     {
       "src": "windows11/SmallTile.scale-100.png",

@@ -26,9 +26,18 @@
     <hr>
     <a href="image.html"><button>Image Gallery</button></a>
     <script>
-  if (typeof navigator.serviceWorker !== 'undefined') {
-    navigator.serviceWorker.register('/sw.js');
-  }
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('/sw.js')
+      .then(registration => {
+        console.log('Service worker registered:', registration);
+      })
+      .catch(error => {
+        console.error('Service worker registration failed:', error);
+      });
+  });
+}
+
 </script>
     <script src="typewriter/typewriter.js"></script>
 </body>
