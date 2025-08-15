@@ -1,8 +1,8 @@
 {
-  "name": "refreaked-worker",
+  "name": "refreaked",
   "compatibility_date": "2025-04-01",
   "workers_dev": true,
   "assets": {
-    "directory": "/"
+    "directory": "site"
   }
 }
