@@ -1,52 +1,70 @@
+<!--
+Freakybob.site Refreaked - A remastered version of Freakybob.site
+Copyright (C) 2025 Freakybob Team
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <https://www.gnu.org/licenses/>.
+-->
+
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Freakybob.site | ReFreaked</title>
-    <link href="css/index.css" rel="stylesheet">
-    <meta content="Freakybob.site | ReFreaked" property="og:title" />
-    <meta content="Freakybob.site has been remastered! Now with ReFreaked quality. (OPEN BETA)" property="og:description"/>
-    <meta name="description" content="Freakybob.site has been remastered! Now with ReFreaked quality. (OPEN BETA)">
-    <meta content="https://freakybob.site" property="og:url" />
-    <link href="typewriter/typewriter.css" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nata+Sans:wght@100..900&display=swap" rel="stylesheet">
-    <link rel="manifest" href="/manifest.json">
-</head>
-<body>
-    <noscript>
-        <meta http-equiv="refresh" content="0; url=noscript.html" />
-        <link href="css/noscript.css" rel="stylesheet">
-    </noscript>
-    <!-- thanks typewriter.js! https://sooraj-gupta.github.io/typewriterjs/ -->
-    <h1>Freakybob.site, the home of Freakybob Team.</h1>
-    <a data-typewriter-fontsize="30px" data-typewriter="on">SITE NEWS: A new generation of freakybob.site is here!</a>
-    <hr>
-    <a href="image.html"><button>Image Gallery</button></a>
-    <footer>
-        <p><b>2025 Freakybob Team. Licensed under GPL-3.0!</b></p>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Freakybob.site | ReFreaked</title>
+        <link href="css/index.css" rel="stylesheet">
+        <meta content="Freakybob.site | ReFreaked" property="og:title" />
+        <meta content="Freakybob.site has been remastered! Now with ReFreaked quality. (OPEN BETA)" property="og:description"/>
+        <meta name="description" content="Freakybob.site has been remastered! Now with ReFreaked quality. (OPEN BETA)">
+        <meta content="https://freakybob.site" property="og:url" />
+        <link href="typewriter/typewriter.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nata+Sans:wght@100..900&display=swap" rel="stylesheet">
+        <link rel="manifest" href="/manifest.json">
+    </head>
+    <body>
+        <noscript>
+            <meta http-equiv="refresh" content="0; url=noscript.html" />
+            <link href="css/noscript.css" rel="stylesheet">
+        </noscript>
+        <!-- thanks typewriter.js! https://sooraj-gupta.github.io/typewriterjs/ -->
+        <h1>Freakybob.site, the home of Freakybob Team.</h1>
+        <a data-typewriter-fontsize="30px" data-typewriter="on">SITE NEWS: A new generation of freakybob.site is here!</a>
         <hr>
-        <div id="links">
-        <a href="https://bsky.app/profile/freakybob.site"><b>Bluesky</b></a>
-        <br>
-        <a href="https://pikidiary.lol/@freakybob"><b>PikiDiary</b></a>
-        </div>
-    </footer>
-    <script>
-if ('serviceWorker' in navigator) {
-  window.addEventListener('load', () => {
-    navigator.serviceWorker.register('/sw.js')
-      .then(registration => {
-        console.log('Service worker registered:', registration);
-      })
-      .catch(error => {
-        console.error('Service worker registration failed:', error);
-      });
-  });
-}
-</script>
-    <script src="typewriter/typewriter.js"></script>
-</body>
+        <a href="image.html"><button>Image Gallery</button></a>
+        <footer>
+            <p><b>2025 Freakybob Team. Licensed under GPL-3.0!</b></p>
+            <hr>
+            <div id="links">
+                <a href="https://bsky.app/profile/freakybob.site"><b>Bluesky</b></a>
+                <br>
+                <a href="https://pikidiary.lol/@freakybob"><b>PikiDiary</b></a>
+            </div>
+        </footer>
+        <script>
+            if ('serviceWorker' in navigator) {
+                window.addEventListener('load', () => {
+                    navigator.serviceWorker.register('/sw.js')
+                      .then(registration => {
+                          console.log('Service worker registered:', registration);
+                      })
+                      .catch(error => {
+                          console.error('Service worker registration failed:', error);
+                      });
+                });
+            }
+        </script>
+        <script src="typewriter/typewriter.js"></script>
+    </body>
 </html>
