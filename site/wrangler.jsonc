@@ -1,9 +1,0 @@
-{
-  "name": "refreaked",
-  "main": "worker.js",
-  "compatibility_date": "2025-04-01",
-  "workers_dev": true,
-  "assets": {
-    "directory": "."
-  }
-}
