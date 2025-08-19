@@ -12,6 +12,6 @@ jobs:
       - uses: pixta-dev/repository-mirroring-action@v1
         with:
           target_repo_url:
-            git@tangled.sh:freakybob.site/freakybob.site
+            git@tangled.sh:freakybob.site/refreaked
           ssh_private_key:                              # <-- use 'secrets' to pass credential information.
             ${{ secrets.TANGLED_SSH }}
