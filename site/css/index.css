@@ -39,13 +39,14 @@ body {
 }
 
 button {
-    background-color: aqua;
     font-size: 18px;
     padding: 15px 25px;
     cursor: pointer;
     border-radius: 8px;
     border: none;
-    color: green;
+    box-shadow: 0 8px 32px 0 rgba(0,0,0,37);
+    background-color: rgb(172, 147, 5);
+    color: white;
 }
 
 #links {
