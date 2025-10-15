@@ -40,11 +40,12 @@ body {
 
 button {
     background-color: aqua;
-    color: black;
+    font-size: 18px;
     padding: 15px 25px;
     cursor: pointer;
     border-radius: 8px;
     border: none;
+    color: green;
 }
 
 #links {
