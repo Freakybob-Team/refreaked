@@ -37,9 +37,16 @@ hr {
 }
 
 #images {
-    justify-content: center;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+}
+
+#images img {
+    justify-content: center;
     width: 200px;
     height: 200px;
     margin: 10px;
+    object-fit: cover;
 }
