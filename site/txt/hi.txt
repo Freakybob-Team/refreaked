@@ -1,0 +1,8 @@
+hello! welcome to /txt/
+check out /txt/prop/ for propositions
+index (manually updated):
+/txt/hi.txt
+/txt/prop/activities.txt
+/txt/index.html
+----
+2025 Freakybob Team - This file is licensed under Unlicense.
