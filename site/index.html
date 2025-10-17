@@ -59,7 +59,7 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
         <a href="images.html"><button>Image Gallery</button></a><br>
         <a href="activities.html"><button>Activities</button></a><br>
         <a href="https://squidwardcc.org/"><button>[partner]: squidward community college</button></a>
-        <p><b id="counter" class="counter"></b></p>
+        <p id="counter" class="counter"></p>
         <footer>
             <p><b>2025 Freakybob Team. Licensed under GPL-3.0!</b></p>
             <p><b>Content hosted on Squidward Community College or its forums are not controlled by us.</b></p>
@@ -89,6 +89,7 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
                 });
             }
         </script>
+        <script data-goatcounter="https://freakybob.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
         <script src="typewriter/typewriter.js"></script>
         <script>
             window.goatcounter = {
@@ -97,10 +98,9 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
             var t = setInterval(function() {
                 if (window.goatcounter && window.goatcounter.visit_count) {
                     clearInterval(t)
-                    window.goatcounter.visit_count({append: 'counter'})
+                    window.goatcounter.visit_count({append: '#counter'})
                 }
             }, 100)
         </script>
-        <script data-goatcounter="https://freakybob.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
     </body>
 </html>
