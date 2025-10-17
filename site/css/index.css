@@ -60,6 +60,11 @@ button {
     text-align: center;
 }
 
+#clap {
+    display: flex;
+    justify-content: center;
+}
+
 footer p {
     text-align: center;
 }
