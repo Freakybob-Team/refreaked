@@ -1,0 +1,5 @@
+welcome to freakybob.site!
+you have requested the text edition, but it isn't implemented yet!
+please go to freakybob.site/index.html or beta.freakybob.site/index.html for an HTML version (that requires javascript)
+-----
+2025 Freakybob Team - This file is licensed under GPL-3.0.
