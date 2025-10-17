@@ -1,5 +1,7 @@
-welcome to freakybob.site!
-you have requested the text edition, but it isn't implemented yet!
-please go to freakybob.site/index.html or beta.freakybob.site/index.html for an HTML version (that requires javascript)
+welcome to freakybob.site (text edition)!
+this does not use HTML, JS, or CSS, so it is designed for even the simplest browser support. However, it cannot display images or link to links. You will have to navigate to them yourself.
+SITE UPDATES: text file version released!
+-----
+image gallery: go to images.txt
 -----
 2025 Freakybob Team - This file is licensed under GPL-3.0.

@@ -1,0 +1,14 @@
+welcome to freakybob.site's image gallery (text edition)!
+this does not use HTML, JS, or CSS, so it is designed for even the simplest browser support. However, it cannot display images or link to links. You will have to navigate to them yourself.
+-----
+images/spinchbob.png - Spinchbob Character
+images/sponebob.jpg - SpongeBob Image
+images/freakbobfounddead.png - Freakbob Found Dead Scene (credit: @okcron)
+images/xbox.png - Freakybob on Xbox 360
+images/freakywater.png - Freakybob squished into a water bottle shape
+images/maintenancebob.png - MaintenanceBob, the old mascot of freakybob.site. (credit: #2 twitter hater)
+images/sigmabob.jpeg - sigma bob
+images/dumbassbob.jpeg - dumbass bob
+-----
+2025 Freakybob Team - This file is licensed under GPL-3.0.
+To takedown content, email freakybobsite@proton.me with the image URL, reason, and the email subject being "Takedown: Image Removal".
