@@ -1,0 +1,20 @@
+* {
+    color: white;
+    text-align: center;
+}
+body {
+    background-color: black;
+}
+a {
+    font-size: 30px;
+    cursor: pointer;
+}
+#ignorefont {
+    font-size: 16px;
+}
+hr {
+    border: 1px solid rgb(218, 203, 3);
+    height: 10px;
+    background-color: rgb(218, 203, 3);
+    border-radius: 25px;
+}
