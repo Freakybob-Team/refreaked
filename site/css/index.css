@@ -54,6 +54,7 @@ button {
     box-shadow: 0 8px 32px 0 rgba(0,0,0,37);
     background-color: rgb(172, 147, 5);
     color: white;
+    transition: 0.2s ease-in-out;
 }
 
 #links {

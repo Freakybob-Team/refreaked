@@ -1,0 +1,1 @@
+mpaxfw.loadCSS('css/compatibility.css');
