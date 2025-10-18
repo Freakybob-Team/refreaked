@@ -17,7 +17,7 @@ function hyper() {
     info.innerHTML = "Hypercuber (aka hyper) is an artist at Freakybob Team, who made the logo and uses Canva for their creations. You can visit their website at <a id='ignorefont' href='https://hyperstraw.straw.page/'>https://hyperstraw.straw.page/</a>!";
 }
 function twthtr() {
-    info.innerHTML = "#2 Twitter Hater (aka twitter hater, twtr hater) is an artist at Freakybob Team who made the original MaintenanceBob (who was the old mascot), and uses Krita for their creations.";
+    info.innerHTML = "#2 Twitter Hater (aka twitter hater, twtr hater) is an artist at Freakybob Team who made the original MaintenanceBob (who was the old mascot), and uses Krita for their creations. You can visit her SpaceHey at <a id='ignorefont' href='https://spacehey.com/nvtbvster'>https://spacehey.com/nvtbvster</a>!";
 }
 function closing() {
     info.innerText = "";
