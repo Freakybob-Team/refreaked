@@ -13,6 +13,12 @@ function names() {
 function noma() {
     info.innerHTML = "Nomaakip (aka noma, hacks.guide) is a maintainer at Freakybob Team, who is a back and front end developer. You can visit her website at <a id='ignorefont' href='https://swag.freakybob.site'>https://swag.freakybob.site</a>!";
 }
+function hyper() {
+    info.innerHTML = "Hypercuber (aka hyper) is an artist at Freakybob Team, who made the logo and uses Canva for their creations. You can visit their website at <a id='ignorefont' href='https://hyperstraw.straw.page/'>https://hyperstraw.straw.page/</a>!";
+}
+function twthtr() {
+    info.innerHTML = "#2 Twitter Hater (aka twitter hater, twtr hater) is an artist at Freakybob Team, who made the original MaintenanceBob (who was the old mascot), and uses Krita for their creations.";
+}
 function closing() {
     info.innerText = "";
 }
