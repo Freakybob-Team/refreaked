@@ -1,9 +1,26 @@
 * {
-    color: white;
     text-align: center;
 }
+h1, p {
+    color: white;
+}
+footer, #colordiff {
+    background-color: yellow;
+    margin-top: -10px;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 10px;
+    border-radius: 25px;
+    color: black;
+}
 body {
-    background-color: black;
+    background-image: url('../images/Bikinibottom.jpg'); 
+    background-color: #ff3399; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
 }
 a {
     font-size: 30px;
